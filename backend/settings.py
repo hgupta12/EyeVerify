@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #Local
     'content.apps.ContentConfig',
+    'comments.apps.CommentsConfig',
     # 3rd party
     'rest_framework',
 ]
