@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     #Local
     'content.apps.ContentConfig',
     'comments.apps.CommentsConfig',
+    'votes.apps.VotesConfig',
     # 3rd party
     'rest_framework',
 ]
