@@ -5,4 +5,4 @@ class ContentSerializer(serializers.ModelSerializer):
     image_url = serializers.ImageField(required=False)
     class Meta:
         model = Content
-        fields = ("id","text","created_at","private","image_url")
+        fields = ("id", "text", "created_at", "owner", "private", "image_url")
